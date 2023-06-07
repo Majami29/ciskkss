@@ -7,6 +7,7 @@ const IMAGE_CACHE = "img";
 const FONT_CACHE = "fonts";
 const QUEUE_NAME = "bgSyncQueue";
 const offlineFallbackPage = "/";
+const buttonInstall = document.querySelector(".btninst");
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js');
 
@@ -28,6 +29,19 @@ navigationPreload: true;
     },
   }];
 
+
+buttonInstall.addEventListener('click', async () => {
+  // Hide the app provided install promotion
+  hideInstallPromotion();
+  // Show the install prompt
+  deferredPrompt.prompt();
+  // Wait for the user to respond to the prompt
+  const { outcome } = await deferredPrompt.userChoice;
+  // Optionally, send analytics event with outcome of user choice
+  console.log(`User response to the install prompt: ${outcome}`);
+  // We've used the prompt, and can't use it again, throw it away
+  deferredPrompt = null;
+});
 
 
 
