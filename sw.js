@@ -28,7 +28,7 @@ navigationPreload: true;
     },
   }];
 
-if ('serviceWorker' in navigator) { navigator.serviceWorker.register('https://raw.githubusercontent.com/Majami29/ciskkss/main/service-worker.js') }
+
 
 
 self.addEventListener("message", (event) => {
