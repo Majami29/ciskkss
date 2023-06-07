@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/templates/pwa/favicon-sw.js').then(
+    navigator.serviceWorker.register('https://raw.githubusercontent.com/Majami29/ciskkss/main/favicon-sw.js').then(
         (reg) => { console.log('SW registered!') },
         (err) => { console.log('SW not registered!', err) }
     )
