@@ -1,0 +1,80 @@
+{
+	"short_name": "ИПОТЕКА",
+	"name": "ИПОТЕКА",
+	"lang": "ru",
+	"description": "Центр Ипотечного Кредитования",
+	"start_url": "https://ипотека-тмн.рф/app",
+	"background_color": "#61a1a1",
+	"theme_color": "#61a1a1",
+	"dir": "ltr",
+	"display": "standalone",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/android-icon-192x192-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-180x180-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "180x180"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-152x152-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "152x152"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-144x144-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "144x144"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-120x120-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "120x120"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-114x114-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "114x114"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/favicon-96x96-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "96x96"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-76x76-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "76x76"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-72x72-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "72x72"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-60x60-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "60x60"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/apple-icon-57x57-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "57x57"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/favicon-32x32-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "32x32"
+		},
+		{
+			"src": "https://github.com/Majami29/ciskkss/blob/main/favicon-16x16-seochecker-manifest-1406.png?raw=true",
+			"type": "image/png?raw=true",
+			"sizes": "16x16"
+		}
+	],
+	"prefer_related_applications": false
+}
